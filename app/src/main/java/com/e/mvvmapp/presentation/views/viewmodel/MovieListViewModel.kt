@@ -7,14 +7,13 @@ import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.e.mvvmapp.model.Movie
-import com.e.mvvmapp.model.MovieRepository
+import com.e.mvvmapp.data.model.Movie
+import com.e.mvvmapp.data.model.MovieRepository
 import org.koin.core.logger.KOIN_TAG
 
 class MovieListViewModel(
-    application: Application,
     val repository: MovieRepository
-) : AndroidViewModel(application) {
+) : ViewModel() {
 
 
 //    val repository: MovieRepository? = null

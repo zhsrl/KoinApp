@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.e.mvvmapp.model.Movie
+import com.e.mvvmapp.data.model.Movie
 import com.e.mvvmapp.R
 import de.hdodenhof.circleimageview.CircleImageView
 

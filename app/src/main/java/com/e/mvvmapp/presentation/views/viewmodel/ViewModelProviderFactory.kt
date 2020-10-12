@@ -4,7 +4,7 @@ import android.app.Application
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.e.mvvmapp.model.MovieRepository
+import com.e.mvvmapp.data.model.MovieRepository
 
 
 class ViewModelProviderFactory

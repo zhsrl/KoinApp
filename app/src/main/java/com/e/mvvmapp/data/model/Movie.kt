@@ -1,4 +1,4 @@
-package com.e.mvvmapp.model
+package com.e.mvvmapp.data.model
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
@@ -13,7 +13,7 @@ data class Movie(
     @SerializedName("genre_ids") val genre_ids : List<Int>,
     @SerializedName("title") val title : String,
 
-) : Serializable {
+    ) : Serializable {
     fun getPosterPath(): String {
         return "https://image.tmdb.org/t/p/w500$poster_path"
     }

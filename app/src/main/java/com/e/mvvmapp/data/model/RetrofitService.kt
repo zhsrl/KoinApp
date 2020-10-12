@@ -1,4 +1,4 @@
-package com.e.mvvmapp.model
+package com.e.mvvmapp.data.model
 
 import retrofit2.Call
 import retrofit2.Retrofit
@@ -11,7 +11,7 @@ object RetrofitService{
     const val BASE_URL = "https://api.themoviedb.org/3/"
 
 
-    fun getMovie(get: Any): MovieApi {
+    fun getMovie(): MovieApi {
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())

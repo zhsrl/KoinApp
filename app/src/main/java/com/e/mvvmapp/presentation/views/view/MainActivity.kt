@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.e.mvvmapp.App
 import com.e.mvvmapp.R
-import com.e.mvvmapp.model.Movie
+import com.e.mvvmapp.data.model.Movie
 import com.e.mvvmapp.presentation.views.viewmodel.MovieListViewModel
 //import com.e.mvvmapp.presentation.views.viewmodel.ViewModelProviderFactory
 import org.koin.androidx.viewmodel.ext.android.viewModel
